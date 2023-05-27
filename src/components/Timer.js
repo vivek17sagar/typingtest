@@ -8,20 +8,17 @@ const Timer = () => {
         // startTime: 300
     });
 
-    function leftTime(startTime){
+    function leftTime(){
         let timer  = time.minute*60+time.second;
         let minute = Math.floor(timer/60);
         let sec = timer%60-1;
         let left = startTime-1;
 
         console.log(time)
-        setTime({
-            ...time,
-            [minute]:sec
-        })
+        setTime({...time,[key]:value})
     }
     useEffect(() => {
-        const interval = setInterval(() => leftTime(time.startTime), 1000);
+        const interval = setInterval(() => leftTime(), 1000);
     
         return () => clearInterval(interval);
       }, []);
