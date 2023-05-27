@@ -1,0 +1,9 @@
+.word-container,.left-word-container,.right-word-container{
+    display: flex;
+  }
+  
+  .word-container{
+    justify-content: center;
+    margin-top: 150px;
+    /* border: 1px solid red; */
+  }

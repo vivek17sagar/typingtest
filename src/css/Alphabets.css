@@ -2,11 +2,12 @@
 
 .keybox{
     border: 1px solid white;
-    padding: 30px;
+    padding: 20px 30px;
     margin: 5px;
     border-radius: 5px;
 }
 
 .key{
     font-size: x-large;
+    margin: 5px;
 }

@@ -4,12 +4,6 @@
   box-shadow: inset 0px 0px 150px 350px black;
   height: 100vh;
   color: white;
+  /* border: 1px solid red; */
 }
 
-.word-container,.left-word-container,.right-word-container{
-  display: flex;
-}
-
-.word-container{
-  justify-content: space-evenly;
-}
