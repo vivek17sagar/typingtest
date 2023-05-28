@@ -1,6 +1,5 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import "./App.css";
-import Alphabets from "./components/Alphabets";
 import TopContainer from "./components/TopContainer";
 import KeyboardKey from "./components/KeyboardKey";
 
@@ -20,8 +19,6 @@ function App() {
 
   function handleKeyDown(e){
       letter.includes((e.key).toUpperCase())?setCorrect(correct+1):setWrong(wrong+1)
-      console.log(e.key)
-      console.log(correct,wrong)
   }
 
   
