@@ -1,0 +1,26 @@
+
+.footer{
+    position: absolute;
+    width: 90%;
+    height: 30%;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid red; */
+    padding: 50px;
+}
+
+.accuracyBox{
+    font-size: xx-large;
+    font-weight: 500;
+    margin-left: 30px;
+    background-color: wheat;
+    color: green;
+    padding: 20px;
+    border-radius: 2px;   
+}
+
+.result{
+    margin: 10px;
+}

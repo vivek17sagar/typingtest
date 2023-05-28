@@ -9,7 +9,7 @@ const KeyboardKey = ({data,userinput}) => {
     <div className="word-container">
     {
        data.map((item,index)=>{
-        return index===userinput? <Alphabets letter={item}/>:<Alphabets/>
+        return index===userinput? <Alphabets key={index} letter={item}/>:<Alphabets key={index}/>
        }) 
     }
     </div>
